@@ -67,7 +67,7 @@
     }
   }
 
-  .contact-info__header,
+.contact-info__header,
 .contact-info__sub-header {
   text-align: center;
 }
@@ -260,4 +260,65 @@
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.resume-background {
+    background-color: #FFB997;
+    border: 2px solid #F67E7D;
+    border-radius: 25px;
+    width: auto;
+    height: 400px;
+}
+
+.avatar__img {
+    border-radius: 25px;
+    width: 200px;
+    height: auto;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.resume-block__info {
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+    text-decoration-color: #843B62;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.resume-block__sub-info{
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.resume__info {
+    border-bottom: 3px solid #843B62;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.intro__info {
+    text-align: justify;
+}
+
+.my-skills__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+  
+.my-skills__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
+
+.my-info {
+    margin-left: 100px;
+}
+
+.my-skills__info {
+    text-align: center;
 }
